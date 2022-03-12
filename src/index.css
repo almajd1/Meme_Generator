@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    background-image: linear-gradient(to right,#672280,#A626D3) ;
+    height: 90px;
+    padding: 30px 25px;
+    text-align: center;
+    align-items: center;
+}
+.nav--logo_text, .nav--title{
+    margin: 0px;
+}
+.nav--logo_text{
+    margin-right: auto;
+    margin-left: 0.5rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+}
+.nav--title{
+    color: #DEEBF8;
+    font-weight: 700;
+}
+.nav--icon{
+    height: 45px;
+}
+.form{
+    display: grid; 
+    grid-gap: 17px;
+    padding: 30px;
+}
+.top{
+    grid-area: 1/1/2/2;
+}
+.bottom{
+    grid-area: 1/2/2/3;
+}
+.form-holder{
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    border: #c9c9c9 solid 1px;
+    padding: 10px;
+}
+.form-button{
+    grid-area: 2/1/3/3;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#672280,#A626D3) ;
+}
